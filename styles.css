@@ -1,0 +1,43 @@
+/* These are the basic settings for the whole page */
+body {
+    background-color: lightgreen;    /* Makes the background light green */
+    margin: 0;                       /* Removes space around the edge of the page */
+    padding: 20px;                   /* Adds space inside the page */
+    font-family: Arial, sans-serif;  /* Makes the text easy to read */
+}
+
+/* This is our main content box */
+.container {
+    max-width: 800px;                /* Makes sure content isn't too wide */
+    margin: 0 auto;                  /* Centers everything on the page */
+    padding: 20px;                   /* Adds space inside the container */
+    background-color: rgba(255, 255, 255, 0.9);  /* White box with slight see-through */
+    border-radius: 10px;             /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    /* Adds a soft shadow */
+    text-align: center;              /* Centers all the text */
+}
+
+/* This is how elements look before they fade in */
+.animate-item {
+    opacity: 0;                      /* Makes elements invisible at first */
+    transform: translateY(20px);     /* Moves elements down a bit */
+}
+
+/* Makes lists look nice */
+ul, ol {
+    display: inline-block;           /* Helps center the lists */
+    text-align: left;               /* Keeps list items easy to read */
+    margin: 20px auto;              /* Adds space around lists */
+}
+
+/* Makes headings interactive */
+h1, h2 {
+    transition: transform 0.3s ease; /* Makes size changes smooth */
+}
+
+/* This is how elements look after they fade in */
+.visible {
+    opacity: 1;                     /* Makes elements fully visible */
+    transform: translateY(0);        /* Moves elements to final position */
+    transition: all 0.5s ease;      /* Makes the animation smooth */
+}
