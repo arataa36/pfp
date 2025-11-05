@@ -5,7 +5,9 @@ body {
     padding: 20px;                   /* Adds space inside the page */
     font-family: Arial, sans-serif;  /* Makes the text easy to read */
 }
-
+img {
+    border-radius: 50%;
+}
 /* This is our main content box */
 .container {
     max-width: 1200px;                /* Makes sure content isn't too wide */
@@ -43,4 +45,5 @@ h1, h2 {
     transition: all 0.5s ease;      /* Makes the animation smooth */
 
 }
+
 
