@@ -31,6 +31,7 @@ ul, ol {
     text-align: left;               /* Keeps list items easy to read */
     margin: 20px auto;              /* Adds space around lists */
     font: Arial;
+    font-size: 18x;
 }
 
 /* Makes headings interactive */
@@ -45,5 +46,6 @@ h1, h2 {
     transition: all 0.5s ease;      /* Makes the animation smooth */
 
 }
+
 
 
