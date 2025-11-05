@@ -28,6 +28,7 @@ ul, ol {
     display: inline-block;           /* Helps center the lists */
     text-align: left;               /* Keeps list items easy to read */
     margin: 20px auto;              /* Adds space around lists */
+    font: Arial;
 }
 
 /* Makes headings interactive */
@@ -40,4 +41,5 @@ h1, h2 {
     opacity: 1;                     /* Makes elements fully visible */
     transform: translateY(0);        /* Moves elements to final position */
     transition: all 0.5s ease;      /* Makes the animation smooth */
+
 }
