@@ -6,11 +6,11 @@ body {
     font-family: Arial, sans-serif;  /* Makes the text easy to read */
 }
 img {
-    border-radius: 50%;
+    border-radius: 10x;
 }
 /* This is our main content box */
 .container {
-    max-width: 1200px;                /* Makes sure content isn't too wide */
+    max-width: 1300px;                /* Makes sure content isn't too wide */
     margin: 0 auto;                  /* Centers everything on the page */
     padding: 20px;                   /* Adds space inside the container */
     background-color: rgba(255, 255, 255, 0.9);  /* White box with slight see-through */
@@ -37,6 +37,8 @@ ul, ol {
 /* Makes headings interactive */
 h1, h2 {
     transition: transform 0.3s ease; /* Makes size changes smooth */
+    text-align: right;
+    
 }
 
 /* This is how elements look after they fade in */
@@ -46,6 +48,7 @@ h1, h2 {
     transition: all 0.5s ease;      /* Makes the animation smooth */
 
 }
+
 
 
 
