@@ -4,6 +4,7 @@ body {
     margin: 0;                       /* Removes space around the edge of the page */
     padding: 20px;                   /* Adds space inside the page */
     font-family: Arial, sans-serif;  /* Makes the text easy to read */
+    text-align: right
 }
 img {
     border-radius: 10x;
@@ -49,6 +50,7 @@ h1, h2 {
     transition: all 0.5s ease;      /* Makes the animation smooth */
 
 }
+
 
 
 
